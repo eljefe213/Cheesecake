@@ -1,0 +1,66 @@
+*{
+    font-family: 'Agbalumo', sans-serif;
+}
+/* Change la couleur de fond de la page */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Change la couleur du texte dans l'en-tête */
+  header {
+    color: #333;
+  }
+  /* Affiche les éléments de navigation horizontalement */
+nav ul {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 300px;
+    margin-left:  50px;
+    margin-right: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h2{
+    color: #4CAF50;
+    text-align: center;
+  }
+  
+  /* Ajoute une bordure autour des images */
+  img {
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Change la couleur de fond des boutons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Change la couleur de fond des liens */
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  /* Change la couleur de fond des sections */
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Change la couleur de fond du pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
